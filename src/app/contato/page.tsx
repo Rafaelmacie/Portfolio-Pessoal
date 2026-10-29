@@ -68,126 +68,55 @@ export default function ContatoPage() {
           </p>
         </section>
 
-        <section className="grid grid-cols-1 gap-10 md:grid-cols-2">
-          {/* Canais Diretos de Contato */}
-          <div className="space-y-6">
-            <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-3">
-              <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-                Redes Profissionais &amp; Portfólio de Código
-              </span>
-              <div className="space-y-3 pt-1 text-sm text-zinc-300">
-                <p className="flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3">
-                  <strong className="text-white">GitHub:</strong>{" "}
-                  <Link
-                    href="https://github.com/Rafaelmacie"
-                    target="_blank"
-                    className="font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
-                  >
-                    github.com/Rafaelmacie ↗
-                  </Link>
-                </p>
-                <p className="flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3">
-                  <strong className="text-white">LinkedIn:</strong>{" "}
-                  <Link
-                    href="https://www.linkedin.com/in/rafaelmacieln/"
-                    target="_blank"
-                    className="font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
-                  >
-                    linkedin.com/in/rafaelmacieln ↗
-                  </Link>
-                </p>
-              </div>
-            </div>
-
-            <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-                E-mail para Contato
-              </span>
-              <p className="text-lg font-semibold text-white">
-                {/* SUBSTITUIR: Seu e-mail real */}
-                rafaelmaciel@exemplo.com
+        {/* Canais Diretos de Contato */}
+        <div className="space-y-6">
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-3">
+            <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
+              Redes Profissionais &amp; Portfólio de Código
+            </span>
+            <div className="space-y-3 pt-1 text-sm text-zinc-300">
+              <p className="flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3">
+                <strong className="text-white">GitHub:</strong>{" "}
+                <Link
+                  href="https://github.com/Rafaelmacie"
+                  target="_blank"
+                  className="font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  github.com/Rafaelmacie ↗
+                </Link>
               </p>
-              <p className="text-sm text-zinc-400">
-                Respondo normalmente em até 24 horas úteis.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-2">
-              <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-                Formação &amp; Localização
-              </span>
-              <p className="text-lg font-semibold text-white">
-                IFCE — Ceará, Brasil
-              </p>
-              <p className="text-sm text-zinc-400">
-                Disponível para atuação remota, híbrida ou presencial em projetos de desenvolvimento de software, QA e arquitetura Full Stack.
+              <p className="flex items-center justify-between rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3">
+                <strong className="text-white">LinkedIn:</strong>{" "}
+                <Link
+                  href="https://www.linkedin.com/in/rafaelmacieln/"
+                  target="_blank"
+                  className="font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  linkedin.com/in/rafaelmacieln ↗
+                </Link>
               </p>
             </div>
           </div>
 
-          {/* Formulário Visual de Contato */}
-          <form className="space-y-5 rounded-2xl border border-zinc-800 bg-zinc-900/30 p-8">
-            <h2 className="text-xl font-bold text-white">
-              Envie uma Mensagem Direta
-            </h2>
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
+              E-mail para Contato
+            </span>
+            <p className="text-lg font-semibold text-white">
+              {/* SUBSTITUIR: Seu e-mail real */}
+              rafaelmn934@gmail.com
+            </p>
+          </div>
 
-            <div className="space-y-2">
-              <label
-                htmlFor="nome"
-                className="block text-sm font-medium text-zinc-300"
-              >
-                Seu Nome
-              </label>
-              <input
-                id="nome"
-                name="nome"
-                type="text"
-                placeholder="Ex.: Maria Silva"
-                className="w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-sm text-white placeholder-zinc-500 focus:border-zinc-600 focus:outline-none"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-zinc-300"
-              >
-                Seu E-mail
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="Ex.: maria@email.com"
-                className="w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-sm text-white placeholder-zinc-500 focus:border-zinc-600 focus:outline-none"
-              />
-            </div>
-
-            <div className="space-y-2">
-              <label
-                htmlFor="mensagem"
-                className="block text-sm font-medium text-zinc-300"
-              >
-                Mensagem
-              </label>
-              <textarea
-                id="mensagem"
-                name="mensagem"
-                rows={4}
-                placeholder="Escreva sua mensagem aqui..."
-                className="w-full rounded-xl border border-zinc-800 bg-zinc-950 px-4 py-3 text-sm text-white placeholder-zinc-500 focus:border-zinc-600 focus:outline-none"
-              />
-            </div>
-
-            <button
-              type="button"
-              className="w-full rounded-lg bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition-colors cursor-pointer"
-            >
-              Enviar Mensagem
-            </button>
-          </form>
-        </section>
-
+          <div className="rounded-2xl border border-zinc-800 bg-zinc-900/30 p-6 space-y-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
+              Localização
+            </span>
+            <p className="text-sm text-zinc-400">
+              Boa Viagem - Ceará
+            </p>
+          </div>
+        </div>
         {/* Link de retorno */}
         <div className="pt-4">
           <Link
