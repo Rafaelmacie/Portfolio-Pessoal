@@ -117,7 +117,7 @@ export default function ProjetosPage() {
                       PostgreSQL &amp; Supabase S3
                     </span>
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
-                      Docker • CI/CD • Vitest • K6
+                      Docker • CI/CD • Vitest • Sentry • SonarQube • K6
                     </span>
                   </div>
 
@@ -143,11 +143,18 @@ export default function ProjetosPage() {
 
                 <div className="flex flex-wrap items-center gap-4 border-t border-zinc-800/80 pt-5">
                   <Link
-                    href="https://github.com/Rafaelmacie/Sertaneja-FAPE"
+                    href="https://portfolio-fape.vercel.app/"
                     target="_blank"
                     className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-500 transition-colors"
                   >
-                    Acessar Repositório no GitHub →
+                    Acessar Portfólio do Projeto →
+                  </Link>
+                  <Link
+                    href="https://sertaneja-fape.vercel.app/"
+                    target="_blank"
+                    className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-500 transition-colors"
+                  >
+                    Ver versão de testes no ar →
                   </Link>
                   <Link
                     href="/contato"
@@ -255,7 +262,7 @@ export default function ProjetosPage() {
                 <div className="space-y-3">
                   <div className="flex flex-wrap gap-2">
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
-                      TypeScript
+                      Python
                     </span>
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
                       IA &amp; Machine Learning
@@ -278,13 +285,6 @@ export default function ProjetosPage() {
                 </div>
 
                 <div className="flex items-center justify-between border-t border-zinc-800/80 pt-4 text-sm font-medium">
-                  <Link
-                    href="https://github.com/QualiSeed/Sistema-QualiSeed"
-                    target="_blank"
-                    className="text-emerald-400 hover:text-emerald-300 transition-colors"
-                  >
-                    Ver no GitHub →
-                  </Link>
                   <Link
                     href="/contato"
                     className="text-xs text-zinc-400 hover:text-white transition-colors"
@@ -313,6 +313,9 @@ export default function ProjetosPage() {
                   <div className="flex flex-wrap gap-2">
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
                       Web &amp; Mobile
+                    </span>
+                    <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
+                      HTML, CSS &amp; React Native
                     </span>
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
                       JavaScript &amp; Leaflet
@@ -359,6 +362,13 @@ export default function ProjetosPage() {
                     Bot RAG
                   </Link>
                 </div>
+                <Link
+                  href="https://acesso-livre-psi.vercel.app/"
+                  target="_blank"
+                  className="rounded-lg bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-500 transition-colors"
+                >
+                  Acessar Sistema →
+                </Link>
               </div>
             </article>
 
@@ -394,7 +404,7 @@ export default function ProjetosPage() {
                   </h3>
 
                   <p className="text-sm leading-relaxed text-zinc-400">
-                    Plataforma desenvolvida em TypeScript para fortalecer a
+                    Plataforma em desenvolvimento para fortalecer a
                     presença digital, a transparência e a gestão das ações
                     educacionais, culturais e sociais promovidas pelo Instituto
                     Girassol.
@@ -436,13 +446,13 @@ export default function ProjetosPage() {
                 <div className="space-y-3">
                   <div className="flex flex-wrap gap-2">
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
-                      Full Stack
+                      React &amp; Node.js
                     </span>
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-300">
                       Landing Pages Dinâmicas
                     </span>
                     <span className="rounded-md border border-zinc-800 bg-zinc-900 px-2.5 py-1 text-xs font-medium text-zinc-400">
-                      EdTech em Equipe
+                      EdTech
                     </span>
                   </div>
 

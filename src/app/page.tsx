@@ -66,8 +66,7 @@ export default function HomePage() {
             <p className="max-w-xl text-base leading-relaxed text-zinc-400 sm:text-lg">
               Estudante de Análise e Desenvolvimento de Sistemas (ADS) no{" "}
               <strong className="text-zinc-200">IFCE</strong> com atuação no
-              planejamento, arquitetura limpa e desenvolvimento de sistemas
-              completos como{" "}
+              planejamento, arquitetura limpa e desenvolvimento de sistemas como{" "}
               <strong className="text-zinc-200">A.T.E.N.A.</strong>,{" "}
               <strong className="text-zinc-200">QualiSeed</strong>,{" "}
               <strong className="text-zinc-200">Acesso Livre</strong>,{" "}
@@ -265,7 +264,7 @@ export default function HomePage() {
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
               <span className="text-xs font-semibold uppercase tracking-wider text-emerald-400">
-                Formação &amp; Prática (IFCE • A.T.E.N.A. • EEEM Dom Terceiro • Capacita Brasil)
+                Formação &amp; Prática (IFCE • EEEP Venceslau Vieira Batista • EEEM Dom Terceiro • Capacita Brasil)
               </span>
               <h2 className="mt-1 text-2xl font-bold text-white sm:text-3xl">
                 Aprofundamento de Competências
@@ -292,9 +291,6 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   Desenvolvimento Front-end &amp; Mobile
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • A.T.E.N.A. • Acesso Livre • Instituto Girassol • LEMA edu
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">React.js</span>
@@ -319,9 +315,6 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   Desenvolvimento Back-end &amp; Linguagens
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • A.T.E.N.A. • QualiSeed • Capacita Brasil
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Node.js</span>
@@ -333,7 +326,6 @@ export default function HomePage() {
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">POO</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Estruturas de Dados</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Programação Lógica</span>
-                <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Desenvolvimento de SaaS</span>
               </div>
             </div>
 
@@ -346,9 +338,6 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   Bancos de Dados &amp; Persistência
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • A.T.E.N.A. • Capacita Brasil
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">PostgreSQL</span>
@@ -360,7 +349,6 @@ export default function HomePage() {
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Design &amp; Normalização de BD</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Consultas &amp; Pool de Conexões</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Segurança de Banco de Dados</span>
-                <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">LGPD</span>
               </div>
             </div>
 
@@ -373,12 +361,10 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   Engenharia de Software &amp; QA
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • Sistema A.T.E.N.A.
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Arquitetura Limpa</span>
+                <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">LGPD</span>
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Arquitetura MVC &amp; Sistemas</span>
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Vitest &amp; Cypress</span>
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Testes de Carga (K6) &amp; SonarQube</span>
@@ -398,9 +384,6 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   DevOps, Cloud &amp; Infraestrutura
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • A.T.E.N.A. • EEEM Dom Terceiro • EEEP Venceslau Vieira Batista
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Docker &amp; Compose</span>
@@ -408,7 +391,6 @@ export default function HomePage() {
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Nginx, VPS &amp; Sentry</span>
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Git, GitHub &amp; Git BASH</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Linux &amp; Windows 11</span>
-                <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">SaaS &amp; PaaS</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Hospedagem de Sites</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">Redes de Computadores</span>
                 <span className="rounded-md border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-300">npm</span>
@@ -425,9 +407,6 @@ export default function HomePage() {
                 <h3 className="text-lg font-bold text-white">
                   Gestão de Projetos, UX/UI &amp; Soft Skills
                 </h3>
-                <p className="text-xs text-zinc-400">
-                  IFCE • A.T.E.N.A. • Instituto Girassol • Estágio EEEM Dom Terceiro
-                </p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-200">Gestão &amp; Planejamento de Projetos</span>

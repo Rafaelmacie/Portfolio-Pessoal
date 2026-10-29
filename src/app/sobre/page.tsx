@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 export default function SobrePage() {
   return (
     <div className="min-h-screen flex flex-col bg-zinc-950 text-zinc-100">
-      {/* Cabeçalho / Navegação (escrito diretamente na página, sem componentizar) */}
       <header className="sticky top-0 z-50 border-b border-zinc-800/80 bg-zinc-950/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <Link
@@ -134,7 +133,7 @@ export default function SobrePage() {
               </div>
               <h3 className="font-bold text-white">Sistema A.T.E.N.A.</h3>
               <p className="text-xs leading-relaxed text-zinc-400">
-                Arquitetura MVC/Clean, governança de cooperativas, BI, segurança AES-256/LGPD e suíte de testes Vitest/K6.
+                Gestor de Projeto e Desenvolvedor Fullstack
               </p>
             </div>
 
@@ -149,7 +148,7 @@ export default function SobrePage() {
               </div>
               <h3 className="font-bold text-white">QualiSeed</h3>
               <p className="text-xs leading-relaxed text-zinc-400">
-                Análise inteligente de qualidade de sementes integrando aplicação Full Stack e modelo de Machine Learning.
+                Desenvolvedor Fullstack
               </p>
             </div>
 
@@ -164,7 +163,7 @@ export default function SobrePage() {
               </div>
               <h3 className="font-bold text-white">Acesso Livre</h3>
               <p className="text-xs leading-relaxed text-zinc-400">
-                Ecossistema Web, Mobile (React Native) e Bot RAG para mapeamento de acessibilidade urbana.
+                Gestor de Projeto e Desenvolvedor Fullstack
               </p>
             </div>
 
@@ -179,7 +178,7 @@ export default function SobrePage() {
               </div>
               <h3 className="font-bold text-white">Instituto Girassol</h3>
               <p className="text-xs leading-relaxed text-zinc-400">
-                Plataforma digital moderna em TypeScript voltada à visibilidade institucional, cultura e impacto social.
+                Gestor de Projeto e Desenvolvedor backend
               </p>
             </div>
 
@@ -194,7 +193,7 @@ export default function SobrePage() {
               </div>
               <h3 className="font-bold text-white">LEMA edu</h3>
               <p className="text-xs leading-relaxed text-zinc-400">
-                Gestão de turmas e alunos em equipe com motor de geração de landing pages personalizadas para cursos.
+                Desenvolvedor Fullstack
               </p>
             </div>
           </div>
@@ -229,7 +228,7 @@ export default function SobrePage() {
               <p className="mt-1 text-xs text-zinc-400">UML &amp; Requisitos</p>
             </div>
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-4 text-center hover:border-zinc-700 transition-colors">
-              <p className="font-semibold text-white">Cypress, Vitest &amp; K6</p>
+              <p className="font-semibold text-white">Cypress, Vitest, SonarQube &amp; K6</p>
               <p className="mt-1 text-xs text-zinc-400">QA, Testes &amp; Carga</p>
             </div>
             <div className="rounded-xl border border-zinc-800 bg-zinc-900/30 p-4 text-center hover:border-zinc-700 transition-colors">
